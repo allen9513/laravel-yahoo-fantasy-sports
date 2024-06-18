@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
 
           script: |
-            cd /var/www/afleagues
+            cd /var/www/laravel-yahoo-fantasy-sports
             git pull
